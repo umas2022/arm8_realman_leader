@@ -3,6 +3,8 @@
 - 3215 leader arm
 - real robot controller : https://github.com/umas2022/MultiAxisController_ST3215
 
+![alt text](image.png)
+
 ```sh
 # view basic urdf description
 ros2 launch leader_3215_description launch.py
@@ -42,4 +44,6 @@ usbipd unbind --busid 1-1
 
 - ./src/simple_joint_publisher.py
     - publish joint_state with random value
+
+
 
